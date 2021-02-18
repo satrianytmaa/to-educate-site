@@ -1,0 +1,14 @@
+@font-face{
+	font-family: "Neue Regular";
+	src: url('../font/Neue Montreal Regular 400.otf');
+}
+
+@font-face{
+	font-family: "Neue Medium";
+	src: url('../font/Neue Montreal Medium 500.otf');
+}
+
+@font-face{
+	font-family: "Neue Bold";
+	src: url('../font/Neue Montreal Bold 700.otf');
+}

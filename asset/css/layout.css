@@ -1,0 +1,9 @@
+section, header, footer, .home__container{
+	margin-inline: auto;
+	width: min(90%, 70em);
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
