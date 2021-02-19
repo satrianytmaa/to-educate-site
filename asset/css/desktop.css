@@ -290,9 +290,11 @@ header{
 
 
 .kelas__img{
-	width: 380px;
-	height: 250px;
+	width: 335px;
+	height: 225px;
 	border-radius: 15px;
+	overflow: hidden;
+	margin-right: 3em;
 }
 
 sup{
@@ -301,17 +303,22 @@ sup{
 }
 
 .kelas__img img{
-	width: 350px;
+	width: 335px;
 	border-radius: 15px;
-	height: 230px;
+	height: 225px;
 	object-fit: cover;
+	transition: transform .3s ease-in-out;
+}
+
+.kelas__img:hover img{
+	transform: scale(1.050);
 }
 
 .kelas__detail{
 	display: flex;
-	width: 90%;
+	width: 85%;
 	justify-content: space-between;
-	margin-bottom: 1em;
+	margin: 1em 0;
 }
 
 .upper{
@@ -322,10 +329,15 @@ sup{
 	padding: 7px 20px;
 	background-color: #E8E7F1;
 	border-radius: 50px;
+	font-size: 12px;
 }
 
 .green{
 	color: #2DB27C;
+}
+
+.kelas__title p{
+	font-size: 14px;
 }
 
 .kelas__rating{
@@ -441,17 +453,24 @@ sup{
 }
 
 .art__img{
-	width: 380px;
-	height: 250px;
+	width: 335px;
+	height: 225px;
 	border-radius: 15px;
+	overflow: hidden;
+	margin-bottom: 1.5em;
 }
 
 
 .art__img img{
-	width: 325px;
+	width: 335px;
 	border-radius: 15px;
-	height: 210px;
+	height: 225px;
 	object-fit: cover;
+	transition: transform .3s ease-in-out;
+}
+
+.art__img:hover img{
+	transform: scale(1.050);
 }
 
 .upperArt{
@@ -459,6 +478,7 @@ sup{
 	text-transform: uppercase;
 	font-family: 'Neue Medium';
 	letter-spacing: 1px;
+	font-size: 12px;
 }
 
 .art__data{
@@ -511,4 +531,9 @@ footer p{
 .footer__privasi{
 	margin-top: 3em;
 	margin-bottom: 2em;
+}
+
+
+.row-2{
+	margin-top: 6em;
 }
