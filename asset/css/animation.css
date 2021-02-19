@@ -1,0 +1,156 @@
+.abs {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.el1{
+	position: absolute;
+	top: 12em;
+	left: 20em;
+	z-index: 20;
+	animation: el1 10s linear infinite;
+}
+
+.el2{
+	position: absolute;
+	top: 16em;
+	left: 5em;
+	animation: el2 8s linear infinite;
+}
+
+.el3{
+	position: absolute;
+	top: 37em;
+	left: 35em;
+	animation: el3 12s linear infinite;
+}
+
+.hero{
+	animation: hero 1.4s 200ms ease-in-out;
+}
+
+.nav__logo{
+	animation: logo 1.2s 0.5s ease-in-out;
+}
+
+.nav__menu{
+	animation: navmenu 1.2s 0.6s ease-in-out;
+}
+
+.nav__signin{
+	animation: sign 1.2s 0.7s ease-in-out;
+}
+
+.home__data h1{
+	animation: homeh1 1.2s 0.9s ease-in-out;
+}
+
+.home__data p{
+	animation: homep 1.2s 1s ease-in-out;
+}
+
+.home__data button{
+	animation: button 1.2s 1.1s ease-in-out;
+}
+/*
+@keyframes button{
+	from {
+		transform: translateY(10px);
+		opacity: 0;
+	} to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes homep{
+	from {
+		transform: translateY(10px);
+		opacity: 0;
+	} to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes homeh1{
+	from {
+		transform: translateY(10px);
+		opacity: 0;
+	} to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes sign{
+	from {
+		transform: translateY(10px);
+		opacity: 0;
+	} to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes navmenu{
+	from {
+		transform: translateY(10px);
+		opacity: 0;
+	} to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes logo{
+	from {
+		transform: translateY(10px);
+		opacity: 0;
+	} to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+ */
+
+
+@keyframes el1{
+	0% {
+		transform: translateY(0);
+	} 50% {
+		transform: translateY(30px);
+	} 100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes el2{
+	0% {
+		transform: translateY(0);
+	} 50% {
+		transform: translateY(30px);
+	} 100% {
+		transform: translateY(0);
+	}
+}
+
+@keyframes el3 {
+	0% {
+		transform: translateY(0);
+	} 50% {
+		transform: translateY(30px);
+	} 100% {
+		transform: translateY(0);
+	}
+}
+
+
+@keyframes hero{
+	from {
+		transform: translateY(30px);
+		opacity: 0;
+	} to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
